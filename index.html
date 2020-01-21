@@ -13,6 +13,7 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="./style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -75,16 +76,79 @@
     <div class="container">
       <div class="row mt-5 d-flex justify-content-around">
         <div class="card mb-3">
-          <div class="card-header">TEAM</div>
-          <div class="card-body">Cadastrar Time</div>
+          <a
+            class="text-dark"
+            role="button"
+            data-toggle="modal"
+            data-target="#myModal"
+          >
+            <div class="card-header">TEAM</div>
+            <div class="card-body">Cadastrar Time</div>
+          </a>
         </div>
         <div class="card mb-3">
-          <div class="card-header">TEAM</div>
-          <div class="card-body">Cadastrar Time</div>
+          <a
+            class="text-dark"
+            role="button"
+            data-toggle="modal"
+            data-target="#myModal"
+          >
+            <div class="card-header">TEAM</div>
+            <div class="card-body">Cadastrar Time</div>
+          </a>
         </div>
         <div class="card mb-3">
-          <div class="card-header">TEAM</div>
-          <div class="card-body">Cadastrar Time</div>
+          <a
+            class="text-dark"
+            role="button"
+            data-toggle="modal"
+            data-target="#myModal"
+          >
+            <div class="card-header">TEAM</div>
+            <div class="card-body">Cadastrar Time</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- The Modal -->
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <div class="d-flex justify-content-between">
+                <div></div>
+                <div>
+                  <h4 class="modal-title">Cadastrar Time</h4>
+                </div>
+                <div>
+                  <i
+                    class="fa fa-lg fa-pencil-square right"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+              </div>
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              Modal body..
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
